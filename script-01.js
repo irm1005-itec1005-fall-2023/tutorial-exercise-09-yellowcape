@@ -87,7 +87,7 @@ const totalPrice = productPrice * productQuantity;
 // Use a template literal to output the following line in your console:
 // "You can buy 7 coffees for $35"
 // Where "7" is the productQuantity value and "35" is the totalPrice value
-const 
+console.log(`You can buy ${productQuantity} coffees for $${totalPrice}`);
 
 
 //
@@ -110,23 +110,26 @@ const
 // You can then access the data using the dot notation
 // product.price <- would give us the value in the price field (4)
 
+
 // Create an variable called ward and assign it an object literal with the following values
 //  name: "College Ward"
 //  number: 2
 //  population: 45000
 //  isRural : false
 //
-
-
-
-
+let ward = {
+    name: "College Ward",
+    number: 2,
+    population: 45000,
+    isRural: false,
+}
 
 
 // Console log the ward variable and check in your browser that you can see all of the ward data
-
+console.log(ward);
 
 // Use dot notation to reassign the value of ward.population and add 10000 people to the ward
-
+ward.population = ward.population + 10000;
 
 // Console log the ward variable again and check in your browser that you can see the population
 // has increased by 10000 (should be 55000 now)
