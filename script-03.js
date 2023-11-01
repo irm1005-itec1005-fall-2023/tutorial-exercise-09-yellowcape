@@ -138,7 +138,11 @@ for (let i = 0; i < cities.length; i++) {
 // Expected output:
 //  Found Paris is at index: 1
 
-
+for(let i = 0; i < cities.length; i++) {
+    if (cities[i] === "Paris") {
+        console.log(`Found Paris is at index: ${i}`);
+    }
+}
 
 
 
