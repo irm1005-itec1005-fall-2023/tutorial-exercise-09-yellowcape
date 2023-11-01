@@ -126,6 +126,9 @@ const cities = ['New York', 'Paris', 'Tokyo', 'London', 'Sydney', 'Rio de Janeir
 //  etc until 9 - "Moscow"
 // Hint, you can print multiple variables to the console using the "," (comma) value as a seperator
 
+for (let i = 0; i < cities.length; i++) {
+    console.log(i, cities[i]);
+}
 
 
 // Now, lets print the index value of "Paris"
