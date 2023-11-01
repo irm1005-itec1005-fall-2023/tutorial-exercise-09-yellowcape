@@ -19,11 +19,12 @@ const vacationDestination = "Paris";
 // Docs: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else
 // Expected output: "Woohoo, excellent choice"
 
-
-
-
-
-
+if (vacationDestination === "Paris") {
+    console.log("Woohoo, excellent choice");
+}
+else {
+    console.log("Awww, but that's still cool");
+}
 
 
 //
@@ -31,7 +32,7 @@ const vacationDestination = "Paris";
 //
 
 // Create a const variable called studentGradeValue and assign it to the number 55
-
+const studentGradeValue = 55;
 
 // Create a let variable called studentGradeLetter and assign it to null
 // (since we don't know what it is just yet - we're going to calculate it next
@@ -40,29 +41,31 @@ let studentGradeLetter = null;
 // Use if and else if statements to calculate the letter grade
 // from a numberical value based on the following conditions:
 //  IF studentGradeValue greater than or equal to 90 then studentGradeLetter = "A+"
+
+if (studentGradeValue >= 90) {
+    studentGradeLetter = "A+";
+}
 //  ELSE IF studentGradeValue greater than or equal to 80 then studentGradeLetter = "A"
+else if(studentGradeValue >= 80) {
+    studentGradeLetter = "A";
+}
 //  ELSE IF studentGradeValue greater than or equal to 70 then studentGradeLetter = "B"
+else if(studentGradeValue >= 70) {
+    studentGradeLetter = "B";
+}
 //  ELSE IF studentGradeValue greater than or equal to 60 then studentGradeLetter = "C"
+else if(studentGradeValue >= 60) {
+    studentGradeLetter = "C";
+}
 //  ELSE IF studentGradeValue greater than or equal to 50 then studentGradeLetter = "D"
+else if(studentGradeValue >= 50) {
+    studentGradeLetter = "D";
+}
 //  ELSE studentGradeLetter = "F"
+else {
+    studentGradeLetter = "F";
+}
 //
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 // Output the calculated Student Grade Letter
