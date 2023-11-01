@@ -94,7 +94,9 @@ let starWarsShips = ["Luke Skywalker", "Star Destroyer", "Millennium Falcon", "C
 //  Star Destroyer
 //  Millennium Falcon
 //  CR90 corvette
-
+for (const element of starWarsShips) {
+    console.log(element);
+}
 
 
 //
